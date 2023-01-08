@@ -13,7 +13,7 @@ output "subnet" {
 }
 
 output "igw_id" {
-  description = "The name of hq-WEB id"
+  description = "The name of vpc-WEB id"
   value = aws_internet_gateway.WEB.id
 }
 
